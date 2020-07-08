@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'tecko-regular';
+    font-family: 'teko-regular';
     src: url('../resources/fonts/teko-regular.woff2') format('woff2'),
          url('../resources/fonts/teko-regular.woff') format('woff');
     font-weight: normal;
@@ -54,7 +54,7 @@ header {
 
   position: fixed;
   left: 0px;
-  top: 110px;
+  top: 80px;
 
 }
 
@@ -67,7 +67,7 @@ header {
 
   position: fixed;
   left: 0px;
-  top: 170px;
+  top: 140px;
 }
 
 #averagesDisplay {
@@ -78,7 +78,7 @@ header {
 
   position: fixed;
   left: 0px;
-  top: 230px;
+  top: 200px;
 }
 
 .event {
