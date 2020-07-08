@@ -1,0 +1,28 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title></title>
+
+    <!-- CSS -->
+    <link href="popup.css" rel="stylesheet" type="text/css">
+
+    <!--Javascript-->
+    <script src="../resources/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="popup.js"></script>
+
+  </head>
+  <body class="popupBody" spellcheck="false">
+
+    <header>Endgame Calculator</header>
+
+    <input id="teamNumber" type="text" placeholder="FRC Team number">
+    <button id="endgamePointsButton" type="button">Calculate Quals Average</button>
+    <div id="averagesDisplay">
+    </div>
+  </body>
+</html>

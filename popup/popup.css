@@ -1,0 +1,95 @@
+:root {
+  /** 5026 colors **/
+  --primary-red:        #9A0000;
+  --highlight-red:      #C80F14;
+  --primary-light-grey: #CCCCCC;
+  --primary-black:      #1A1A1A;
+  --off-black:          #333333;
+  --background-color: var(--primary-light-grey);
+}
+
+@font-face {
+    font-family: 'tecko-regular';
+    src: url('../resources/fonts/teko-regular.woff2') format('woff2'),
+         url('../resources/fonts/teko-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+  font-family: 'teko-regular';
+}
+
+.popupBody {
+  min-width: 300px; /* your desired width */
+  min-height: 500px;
+
+  position: relative;
+  background: var(--background-color);
+
+  font-family: 'teko-regular';
+  font-size:20px;
+  color: var(--primary-black);
+}
+
+header {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  background: var(--primary-red);
+  text-align: center;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#teamNumber {
+  height: 50px;
+  width: 100%;
+  font-size: 100%;
+  text-align: center;
+  border: 0px;
+
+  position: fixed;
+  left: 0px;
+  top: 110px;
+
+}
+
+#endgamePointsButton {
+  height: 50px;
+  width: 100%;
+  font-size: 100%;
+  text-align: center;
+  border: 0px;
+
+  position: fixed;
+  left: 0px;
+  top: 170px;
+}
+
+#averagesDisplay {
+  height: 250px;
+  width: 100%;
+  font-size: 100%;
+  text-align: center;
+
+  position: fixed;
+  left: 0px;
+  top: 230px;
+}
+
+.event {
+  margin: 20px auto;
+}
+
+.eventName {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.averageScore {
+  font-size: 25px;
+}
